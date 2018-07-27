@@ -17,7 +17,7 @@ pipeline {
     }
     stage('master') {
       steps {
-        sh 'cat >> ip a'
+        sh 'ip a'
       }
     }
   }
